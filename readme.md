@@ -28,6 +28,7 @@ Aqui a lógica é igual à dos quadrantes, pois se o cursor estiver na esquerda 
 No final temos uma composição colorida que usa a condição if else e o interação do mouseX e mouseY em conjunto para controlar o background, retas e círculo e acaba por criar uma espécie de teia ou até variadas perspectivas com o uso do contraste de cor.
 
 *Referências:*
+
 -Código de referência: Código Criativo III (Desenho cumulativo por quadrantes)- https://hacktoimprove.com/classes/DesignDeInovacao/Sumarios/aula3/#condicionais-if-else
 
 -if/else- https://p5js.org/reference/p5/if/ ; The Coding Train: https://www.youtube.com/watch?v=r2S7j54I68c
