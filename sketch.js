@@ -7,15 +7,17 @@ if (mouseX < width /2){ //primeiro if/else
 
 //segundo if/else
 if (mouseY < height /2){
+  //rosa
   background(242, 151, 154);
-   //para linhas e círculo mudarem de cor 
-  stroke(255);
-  fill(255);}
+   //stroke e fill para linhas e círculo mudarem de cor 
+  stroke(139, 210, 154);
+  fill(139, 210, 154);}
+
   else{
-  background(139, 199, 154);
-   //para linhas e círculo mudarem de cor 
-  stroke(0);
-  fill(0);
+    //verde
+  background(139, 210, 154);
+  stroke(242, 151, 154);
+  fill(242, 151, 154);
  }
 }
 
@@ -24,19 +26,21 @@ else { //primeiro if/else
 
 //terceiro if/else
   if (mouseY < height /2) {
+    //amarelo
   background(249, 232, 165);
-  //para linhas e círculo
-  stroke(0); 
-  fill(0);}
+  //stroke e fill para linhas e círculos mudarem de cor
+  stroke(138, 136, 193); 
+  fill(138, 136, 193);}
+
   else {
+    //roxo
   background(138, 136, 193);
-   //para linhas e círculo
-  stroke(255);
-  fill(255);
+  stroke(249, 232, 165);
+  fill(249, 232, 165);
   }
 }
 
-strokeWeight(4);
+strokeWeight(3);
 
 // linha superior esquerda e direita superior
 line(mouseX, mouseY, 0, 0);
@@ -55,10 +59,10 @@ line(mouseX, mouseY, 0, height/2);
 line(mouseX, mouseY, width, height/2);
 
 //círculo rato
-circle(mouseX, mouseY, 110);
+circle(mouseX, mouseY, 125);
 
+}
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
-}
 }
