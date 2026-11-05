@@ -1,22 +1,39 @@
 function setup() {
-  createCanvas(600, 600);
-  background(255);
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-  noStroke();
-  if (mouseX < width / 2) {
-    if (mouseY < height / 2) {
-      fill(255, 0, 0);
-    } else {
-      fill(0, 255, 0);
-    }
-  } else {
-    if (mouseY < height / 2) {
-      fill(0, 0, 255);
-    } else {
-      fill(0);
-    }
+if (mouseX < width /2){ //primeiro if/else
+
+//segundo if/else
+if (mouseY < height /2){
+  background(242, 151, 154);}
+  else{
+  background(139, 199, 154);
+ }
+}
+
+
+else { //primeiro if/else
+
+//terceiro if/else
+  if (mouseY < height /2) {
+  background(249, 232, 165); }
+  else {
+  background(138, 136, 193);
   }
-  circle(mouseX, mouseY, 20);
+  }
+
+
+
+
+
+strokeWeight(0);
+circle(mouseX, mouseY, 120);
+
+
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
 }
