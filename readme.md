@@ -28,11 +28,10 @@ Aqui a lógica é igual à dos quadrantes, pois se o cursor estiver na esquerda 
 No final temos uma composição colorida que usa a condição if else e o interação do mouseX e mouseY em conjunto para controlar o background, retas e círculo e acaba por criar uma espécie de teia ou até variadas perspectivas com o uso do contraste de cor.
 
 *Referências:*
-Código de referência: Código Criativo III (Desenho cumulativo por quadrantes)- https://hacktoimprove.com/classes/DesignDeInovacao/Sumarios/aula3/#condicionais-if-else
-if/else- https://p5js.org/reference/p5/if/ ; The Coding Train: https://www.youtube.com/watch?v=r2S7j54I68c
-mouseX- https://p5js.org/reference/p5/mouseX/
-mouseY- https://p5js.org/reference/p5/mouseY/
-line()- https://p5js.org/reference/p5/line/
-circle()- https://p5js.org/reference/p5/circle/
-Uso de IA (CLAUDE) para compreensão da lógica das coordenadas- 
-Prompt: Explica-me a lógica da ordem das coordenadas usando o mouseY e mouseX e o /2.
+-Código de referência: Código Criativo III (Desenho cumulativo por quadrantes)- https://hacktoimprove.com/classes/DesignDeInovacao/Sumarios/aula3/#condicionais-if-else
+-if/else- https://p5js.org/reference/p5/if/ ; The Coding Train: https://www.youtube.com/watch?v=r2S7j54I68c
+-mouseX- https://p5js.org/reference/p5/mouseX/
+-mouseY- https://p5js.org/reference/p5/mouseY/
+-line()- https://p5js.org/reference/p5/line/
+-circle()- https://p5js.org/reference/p5/circle/
+-Uso de IA (CLAUDE) para compreensão da lógica das coordenadas. Prompt: Explica-me a lógica da ordem das coordenadas usando o mouseY e mouseX e o /2.
